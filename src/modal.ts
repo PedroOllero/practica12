@@ -1,11 +1,11 @@
-interface Reserva {
+export interface Reserva {
   tipoHabitacion: "standard" | "suite";
   desayuno: boolean;
   pax: number;
   noches: number;
 }
 
-const reservas = [
+export const reservas = [
   {
     tipoHabitacion: "standard",
     desayuno: false,
