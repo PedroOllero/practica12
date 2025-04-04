@@ -5,7 +5,7 @@ export interface Reserva {
   noches: number;
 }
 
-export const reservas = [
+export const reservas: Reserva[] = [
   {
     tipoHabitacion: "standard",
     desayuno: false,
@@ -15,7 +15,7 @@ export const reservas = [
   {
     tipoHabitacion: "standard",
     desayuno: false,
-    pax: 1,
+    pax: 3,
     noches: 4,
   },
   {
