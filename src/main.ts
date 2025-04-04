@@ -53,7 +53,7 @@ class hotelParticular extends hotel {
       this.precioHabitacion * this.noches +
       this.cargoPersonaAdicional +
       this.cargoDesayuno;
-    this.total = this.subtotal * 1.21;
+    this.total = parseFloat((this.subtotal * 1.21).toFixed(2));
   }
 }
 
@@ -72,7 +72,7 @@ class hotelTourOperator extends hotel {
         this.cargoPersonaAdicional +
         this.cargoDesayuno) *
       this.descuentoEspecial;
-    this.total = this.subtotal * 1.21;
+    this.total = parseFloat((this.subtotal * 1.21).toFixed(2));
   }
 }
 
